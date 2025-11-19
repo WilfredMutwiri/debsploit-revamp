@@ -6,8 +6,8 @@ import { Card, CardContent } from "./ui/card";
 
 const Contact = () => {
   return (
-    <section id="contact" className="py-20 bg-background">
-      <div className="container mx-auto px-4">
+    <section id="contact" className="py-20 bg-gray-50/10">
+      <div className="container mx-auto px-10">
         <div className="text-center mb-12">
           <span className="text-sm font-medium text-primary uppercase tracking-wide">Contact Us</span>
           <h2 className="text-4xl font-serif font-bold mt-2 mb-4">Get In Touch</h2>
@@ -24,7 +24,7 @@ const Contact = () => {
                   <div className="grid md:grid-cols-2 gap-6">
                     <div>
                       <label className="block text-sm font-medium mb-2">Full Name</label>
-                      <Input placeholder="John Doe" />
+                      <Input placeholder="John Mark" />
                     </div>
                     <div>
                       <label className="block text-sm font-medium mb-2">Email Address</label>

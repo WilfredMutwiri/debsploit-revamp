@@ -42,12 +42,12 @@ const Portfolio = () => {
   ];
 
   return (
-    <section id="portfolio" className="py-20 bg-background">
-      <div className="container mx-auto px-4">
+    <section id="portfolio" className="py-20 bg-gray-800">
+      <div className="container mx-auto px-10">
         <div className="text-center mb-12">
           <span className="text-sm font-medium text-primary uppercase tracking-wide">Our Work</span>
-          <h2 className="text-4xl font-serif font-bold mt-2 mb-4">Success Stories</h2>
-          <p className="text-muted-foreground max-w-2xl mx-auto">
+          <h2 className="text-4xl font-serif font-bold mt-2 mb-4 text-gray-50">Success Stories</h2>
+          <p className="text-gray-300 max-w-2xl mx-auto">
             Explore our portfolio of successful cybersecurity implementations, web development projects, and corporate training programs.
           </p>
         </div>
@@ -56,7 +56,7 @@ const Portfolio = () => {
           {projects.map((project, index) => (
             <Card key={index} className="hover:shadow-xl transition-shadow">
               <CardHeader>
-                <Badge className="w-fit mb-2" variant="secondary">
+                <Badge className="w-fit mb-2 bg-primary text-gray-50" variant="secondary">
                   {project.category}
                 </Badge>
                 <CardTitle className="text-2xl">{project.title}</CardTitle>

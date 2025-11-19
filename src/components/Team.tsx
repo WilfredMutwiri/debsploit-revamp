@@ -4,30 +4,40 @@ import { Linkedin, Twitter, Mail } from "lucide-react";
 const Team = () => {
   const team = [
     {
-      name: "John Doe",
-      role: "Lead Security Consultant",
-      bio: "15+ years in cybersecurity with expertise in penetration testing and security architecture.",
+      name: "Erick Odhiambo",
+      role: "Lead Cybersecurity Instructor",
+      bio: "6 years in cybersecurity with expertise in penetration testing and incident response. Former security consultant for major tech companies.",
     },
     {
-      name: "Jane Smith",
-      role: "Senior Web Developer",
-      bio: "Full-stack developer specializing in React, Node.js, and cloud-native applications.",
+      name: "Brandon Ochieng",
+      role: "Senior Web Development Instructor",
+      bio: "Full-stack developer with 5 years building scalable web applications. Expert in modern JavaScript frameworks and cloud technologies.",
     },
     {
-      name: "Mike Johnson",
-      role: "Training Director",
-      bio: "Certified instructor with a passion for mentoring the next generation of tech professionals.",
+      name: "Wilfred Mutwiri",
+      role: "Full Stack Developer",
+      bio: "Experienced full stack developer with a strong background in building scalable web applications, REST APIs, and modern user interfaces. Passionate about writing clean, maintainable code and delivering robust solutions across the stack.",
     },
     {
-      name: "Sarah Williams",
-      role: "Digital Marketing Lead",
-      bio: "Strategic marketer with proven track record in growing online presence for tech companies.",
+      name: "Mwaitsi Dolphine",
+      role: "Corporate Training Director",
+      bio: "Learning and development specialist focused on creating effective cybersecurity training programs for enterprise clients.",
+    },
+    {
+      name: "Faith Chepkemoi",
+      role: "Creative Technologist & Full-Stack Developer",
+      bio: "A multidisciplinary tech expert with a passion for building intuitive digital experiences. Faith brings together strong skills in software development, UI/UX design, and visual branding to deliver user-centered web and mobile solutions.",
+    },
+    {
+      name: "Audrey Aluoch",
+      role: "Communications & Investigative Journalism Specialist",
+      bio: "A passionate communication and journalism professional with a strong interest in business, investigative, and health reporting. Audrey combines her storytelling expertise with strategic communication to inform, educate, and drive impact. Her journey is marked by creativity, a hunger for elegance, and an unwavering pursuit of excellence in all forms of communication.",
     },
   ];
 
   return (
     <section id="team" className="py-20 bg-secondary">
-      <div className="container mx-auto px-4">
+      <div className="container mx-auto px-10">
         <div className="text-center mb-12">
           <span className="text-sm font-medium text-primary uppercase tracking-wide">Our Team</span>
           <h2 className="text-4xl font-serif font-bold mt-2 mb-4">Meet the Experts</h2>

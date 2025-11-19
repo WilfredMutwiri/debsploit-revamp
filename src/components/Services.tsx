@@ -50,7 +50,7 @@ const Services = () => {
 
   return (
     <section id="services" className="py-20 bg-secondary">
-      <div className="container mx-auto px-4">
+      <div className="container mx-auto px-10">
         <div className="text-center mb-12">
           <span className="text-sm font-medium text-primary uppercase tracking-wide">Our Services</span>
           <h2 className="text-4xl font-serif font-bold mt-2 mb-4">Comprehensive Tech Solutions</h2>
