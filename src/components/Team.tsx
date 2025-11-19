@@ -24,11 +24,6 @@ const Team = () => {
       bio: "Learning and development specialist focused on creating effective cybersecurity training programs for enterprise clients.",
     },
     {
-      name: "Faith Chepkemoi",
-      role: "Creative Technologist & Full-Stack Developer",
-      bio: "A multidisciplinary tech expert with a passion for building intuitive digital experiences. Faith brings together strong skills in software development, UI/UX design, and visual branding to deliver user-centered web and mobile solutions.",
-    },
-    {
       name: "Audrey Aluoch",
       role: "Communications & Investigative Journalism Specialist",
       bio: "A passionate communication and journalism professional with a strong interest in business, investigative, and health reporting. Audrey combines her storytelling expertise with strategic communication to inform, educate, and drive impact. Her journey is marked by creativity, a hunger for elegance, and an unwavering pursuit of excellence in all forms of communication.",
