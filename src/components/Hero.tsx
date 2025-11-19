@@ -1,6 +1,6 @@
 import { Button } from "./ui/button";
 import { Shield, Code, Lock } from "lucide-react";
-
+import users1 from "../../assets/users1.jpg";
 const Hero = () => {
   const scrollToSection = (id: string) => {
     const element = document.getElementById(id);
@@ -10,12 +10,12 @@ const Hero = () => {
   };
 
   return (
-    <section id="home" className="relative bg-hero text-hero-foreground pt-32 pb-20 overflow-hidden">
+    <section id="home" style={{backgroundImage:`url(${users1})`}} className="relative bg-hero text-hero-foreground pt-32 pb-20 overflow-hidden bg-cover bg-center bg-no-repeat">
       <div className="container mx-auto px-4">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="space-y-8">
             <div className="inline-block">
-              <span className="text-sm font-medium px-4 py-2 bg-primary/10 text-primary rounded-full">
+              <span className="text-sm font-medium px-4 py-2 bg-gray-50 text-primary rounded-full">
                 Trusted Cybersecurity Experts
               </span>
             </div>
@@ -31,7 +31,7 @@ const Hero = () => {
             <div className="flex flex-wrap gap-4">
               <Button 
                 size="lg"
-                className="bg-primary hover:bg-primary/90 text-primary-foreground"
+                className="bg-primary hover:bg-hero-foreground/20 text-primary-foreground"
                 onClick={() => scrollToSection("services")}
               >
                 Explore Services
@@ -39,7 +39,7 @@ const Hero = () => {
               <Button 
                 size="lg"
                 variant="outline"
-                className="border-hero-foreground text-hero-foreground hover:bg-hero-foreground/10"
+                className="border-hero-foreground text-hero-foreground bg-gray-900 hover:bg-hero-foreground/20"
                 onClick={() => scrollToSection("team")}
               >
                 Meet Our Team
@@ -63,17 +63,17 @@ const Hero = () => {
           </div>
 
           <div className="grid grid-cols-1 gap-6">
-            <div className="bg-background/10 backdrop-blur-sm border border-hero-foreground/20 rounded-lg p-6 hover:bg-background/20 transition-all">
+            <div className="bg-background/5 backdrop-blur-sm border border-hero-foreground/20 rounded-lg p-6 hover:bg-background/20 transition-all">
               <Shield className="h-12 w-12 text-primary mb-4" />
               <h3 className="text-xl font-semibold mb-2">Cybersecurity</h3>
               <p className="text-hero-foreground/80">Advanced security training</p>
             </div>
-            <div className="bg-background/10 backdrop-blur-sm border border-hero-foreground/20 rounded-lg p-6 hover:bg-background/20 transition-all">
+            <div className="bg-background/5 backdrop-blur-sm border border-hero-foreground/20 rounded-lg p-6 hover:bg-background/20 transition-all">
               <Code className="h-12 w-12 text-primary mb-4" />
               <h3 className="text-xl font-semibold mb-2">Web Development</h3>
               <p className="text-hero-foreground/80">Modern web technologies</p>
             </div>
-            <div className="bg-background/10 backdrop-blur-sm border border-hero-foreground/20 rounded-lg p-6 hover:bg-background/20 transition-all">
+            <div className="bg-background/5 backdrop-blur-sm border border-hero-foreground/20 rounded-lg p-6 hover:bg-background/20 transition-all">
               <Lock className="h-12 w-12 text-primary mb-4" />
               <h3 className="text-xl font-semibold mb-2">Penetration Testing</h3>
               <p className="text-hero-foreground/80">Ethical hacking skills</p>
