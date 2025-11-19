@@ -1,13 +1,18 @@
 import { Facebook, Twitter, Linkedin, Instagram } from "lucide-react";
+import logo from "../../assets/logo.png";
 
 const Footer = () => {
   return (
     <footer className="bg-[#1F2937] text-hero-foreground py-12">
-      <div className="container mx-auto px-4">
+      <div className="container mx-auto px-10">
         <div className="grid md:grid-cols-4 gap-8 mb-8">
           <div>
-            <h3 className="text-xl font-serif font-bold mb-4">Debsploit Solutions</h3>
-            <p className="text-sm text-hero-foreground/80">
+          <div className="flex items-center pb-5">
+            <img src={logo} alt="Debsploit Logo" className="h-8 w-8 mr-2" />
+            <h1 className="text-2xl font-serif font-bold text-gray-50">
+              Debsploit Solutions
+            </h1>
+          </div>            <p className="text-sm text-hero-foreground/80">
               Empowering individuals and organizations with cutting-edge technology skills and solutions.
             </p>
           </div>
