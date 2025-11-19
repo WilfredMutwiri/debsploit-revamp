@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
 import { Button } from "./ui/button";
+import logo from "../../assets/logo.png";
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -14,10 +15,11 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="fixed top-0 left-0 right-0 z-50 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60 border-b border-border">
+    <nav className="fixed top-0 left-0 right-0 z-50 bg-gray-50 border-b border-border pl-4 pr-4">
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center">
+            <img src={logo} alt="Debsploit Logo" className="h-8 w-8 mr-2" />
             <h1 className="text-2xl font-serif font-bold text-foreground">
               Debsploit Solutions
             </h1>
