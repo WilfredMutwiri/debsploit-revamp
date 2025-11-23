@@ -1,4 +1,4 @@
-import { Facebook, Twitter, Linkedin, Instagram } from "lucide-react";
+import { Facebook,Twitter, Linkedin, Instagram } from "lucide-react";
 import logo from "../../assets/logo.png";
 
 const Footer = () => {
@@ -56,16 +56,16 @@ const Footer = () => {
           <div>
             <h4 className="font-semibold mb-4">Follow Us</h4>
             <div className="flex gap-4">
-              <a href="#" className="text-hero-foreground/80 hover:text-primary transition-colors">
+              <a href="https://web.facebook.com/profile.php?id=61578636091280" target="_blank" className="text-hero-foreground/80 hover:text-primary transition-colors">
                 <Facebook className="h-5 w-5" />
               </a>
-              <a href="#" className="text-hero-foreground/80 hover:text-primary transition-colors">
+              <a href="https://x.com/debsploit" target="_blank" className="text-hero-foreground/80 hover:text-primary transition-colors">
                 <Twitter className="h-5 w-5" />
               </a>
-              <a href="#" className="text-hero-foreground/80 hover:text-primary transition-colors">
+              <a href="https://www.linkedin.com/in/debsploit-solutions-aa64b3376/" target="_blank" className="text-hero-foreground/80 hover:text-primary transition-colors">
                 <Linkedin className="h-5 w-5" />
               </a>
-              <a href="#" className="text-hero-foreground/80 hover:text-primary transition-colors">
+              <a href="https://www.instagram.com/debsploit/" target="_blank" className="text-hero-foreground/80 hover:text-primary transition-colors">
                 <Instagram className="h-5 w-5" />
               </a>
             </div>
